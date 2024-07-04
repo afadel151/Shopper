@@ -27,8 +27,9 @@ function handleImageError() {
 </script>
 
 <template>
-    <Head title="Welcome" />
+    
     <div class="bg-gray-50 text-black/50 dark:bg-black dark:text-white/50">
+       
         <img
             id="background"
             class="absolute -left-20 top-0 max-w-[877px]"
@@ -58,8 +59,8 @@ function handleImageError() {
                             :href="route('dashboard')"
                             class="rounded-md px-3 py-2 text-black ring-1 ring-transparent transition hover:text-black/70 focus:outline-none focus-visible:ring-[#FF2D20] dark:text-white dark:hover:text-white/80 dark:focus-visible:ring-white"
                         >
-                            Dashboard
-                        </Link>
+                            Dashboard 
+                        </Link> 
 
                         <template v-else>
                             <Link
